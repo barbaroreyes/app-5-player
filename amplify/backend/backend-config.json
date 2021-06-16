@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "app5player537ad7bf": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
