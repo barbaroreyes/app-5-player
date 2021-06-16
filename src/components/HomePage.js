@@ -16,10 +16,10 @@ const HomePage = () => {
   return (
     <div className='box' >
       {albums.map((item,i)=>{
-          return (<Link to='/categories' >< div className= 'box-1 grow shadow-5'
+          return (<Link to='/categories' >< div className= 'box-1  grow '
           key={i}>
              
-        <div className="box-box shadow-5 ">{item.name}</div></div></Link>)
+        <div className="box-box shadow-5 bg-red">{item.name}</div></div></Link>)
       })}
     </div>
   )

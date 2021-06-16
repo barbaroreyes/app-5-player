@@ -18,7 +18,10 @@ function App() {
       </Route>
       <Route exact path='/categories'>
         <Authentication/>
-      </Route>
+        </Route>
+        <Route exact path='/categories/category'>
+        category
+        </Route>
       </Switch>
    
     </div>
