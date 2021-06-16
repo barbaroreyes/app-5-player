@@ -1,5 +1,5 @@
 import React from 'react'
-import HomePage from './components/HomePage'
+import LandingPage from './components/LandingPage'
 import Amplify from 'aws-amplify';
 import awsconfi from './aws-exports';
 import {AmplifySignOut,withAuthenticator } from '@aws-amplify/ui-react';
@@ -9,7 +9,7 @@ const Authentication = () => {
   return (
     <div>
         <AmplifySignOut/>
-        <HomePage/>
+        <LandingPage/>
     </div>
   )
 }

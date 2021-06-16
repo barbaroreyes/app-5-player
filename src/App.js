@@ -8,14 +8,15 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Link to='/home'>Home</Link>
-      <Link to='/'>coming soom</Link>
+      <Link to='/'>Home</Link>
+      <Link to='/categories'>Categories</Link>
+      
       <Switch>
       <Route exact path='/'>
       <HomePage/>
 
       </Route>
-      <Route exact path='/home'>
+      <Route exact path='/categories'>
         <Authentication/>
       </Route>
       </Switch>
