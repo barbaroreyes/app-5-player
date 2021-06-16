@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Link to='/home'>Home</Link>
+      <Link to='/'>coming soom</Link>
       <Switch>
       <Route exact path='/'>
       <HomePage/>
